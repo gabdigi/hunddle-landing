@@ -13,18 +13,75 @@ body {
 
 .logo {
 	display: flex;
-	margin-left: 78px;
+	margin-top: 65px;
+	margin-left: 80px;
 }
 
 section {
+	margin-top: 105px;
 	display: flex;
 
 }
 
 aside {
-	margin-left: 78px;
+	margin-left: 80px;
+	margin-right: 60px;
+}
+
+aside img {
+	width: 100%;
 }
 
 article {
 	max-width: 510px;
+	margin-right: 96px;
+}
+
+.title {
+	font-size: 2.2em;
+	font-weight: 700;
+	line-height: 1.5em;
+}
+
+.paragraph {
+	font-weight: 100;
+	line-height: 2em;
+	
+
+}
+
+.button_white button{
+	margin-top: 30px;
+	width: 200px;
+	height: 55px;
+	border: none;
+	background-color: white;
+	border-color: white;
+	border-radius: 150px;
+
+}
+
+.button_text{
+	color: hsl(256, 40%, 49%);
+}
+
+footer nav {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 80px;
+	margin-bottom: 40px;
+
+}
+
+footer nav li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 16px;
+	height: 40px;
+	width: 40px;
+	border: 1px solid white;
+	border-radius: 100%;
+
 }
