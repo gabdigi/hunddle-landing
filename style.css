@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, "Arial Black", Arial, Verdana, sans-serif;
+	background-color: hsl(256, 40%, 49%);
+	background-image: url("images/bg-desktop.svg");
+	color: white;
+}
+
+.logo {
+	display: flex;
+	margin-left: 78px;
+}
+
+section {
+	display: flex;
+
+}
+
+aside {
+	margin-left: 78px;
+}
+
+article {
+	max-width: 510px;
+}
