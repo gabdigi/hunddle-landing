@@ -58,6 +58,7 @@ article {
 	background-color: white;
 	border-color: white;
 	border-radius: 150px;
+	box-shadow: 0 10px 20px black
 
 }
 
@@ -91,16 +92,16 @@ footer nav ul li {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
 
 	body {
 		background-image: url("images/bg-mobile.svg");
 	}
 
 	.logo {
-		display: flex;
-		width: 150px;
-		height: auto;
+		margin-left: 5px;
+		height: 40px;
+		width: auto;
 	}
 
 	section {
@@ -109,14 +110,17 @@ footer nav ul li {
 	}
 
 	aside {
+		margin: 0px 60px 0px 60px;
 		max-width: 800px;
+		height: auto;
+		width: 300px;
 	}
 
 	article {
 		text-align: center;
 		max-width: 374px;
-		margin-left: 25px;
-		margin-right: 0px;
+		margin-left: 22px;
+		margin-right: 22px;
 		margin-top: 65px;
 	}
 
@@ -124,6 +128,10 @@ footer nav ul li {
 		font-size: 1.5em;
 		font-weight: 700;
 		line-height: 1.5em;
+	}
+
+	.paragraph {
+        margin-top: 20px;
 	}
 
 	.button_white {
@@ -135,7 +143,121 @@ footer nav ul li {
 
 	.reseaux_logo {
 		display: block;
-		margin: 127px 0px 80px 85px;
+		margin: 127px 120px 80px 120px;
+		
+	}
+
+}	
+
+@media screen and (max-width: 768px) {
+
+	body {
+		background-image: url("images/bg-mobile.svg");
+	}
+
+	.logo {
+		margin-left: 5px;
+		height: 40px;
+		width: auto;
+	}
+
+	section {
+		display: block;
+		flex-direction: column;
+	}
+
+	aside {
+		margin: 0px 180px 0px 180px;
+		max-width: 800px;
+		height: auto;
+		width: 400px;
+	}
+
+	article {
+		text-align: center;
+		max-width: 374px;
+		margin-left: 200px;
+		margin-right: 200px;
+		margin-top: 65px;
+	}
+
+	.title {
+		font-size: 1.5em;
+		font-weight: 700;
+		line-height: 1.5em;
+	}
+
+	.paragraph {
+        margin-top: 20px;
+	}
+
+	.button_white {
+        display: block;
+        align-items:center;
+        justify-content: space-around;
+        margin-top: 60px;
+	}
+
+	.reseaux_logo {
+		display: block;
+		margin: 127px 280px 80px 280px;
+		
+	}
+
+}	
+
+@media screen and (max-width: 375px) {
+
+	body {
+		background-image: url("images/bg-mobile.svg");
+	}
+
+	.logo {
+		margin-left: 5px;
+		height: 40px;
+		width: auto;
+	}
+
+	section {
+		display: block;
+		flex-direction: column;
+	}
+
+	aside {
+		margin: 0px 10px 0px 10px;
+		max-width: 800px;
+		height: auto;
+		width: 300px;
+	}
+
+	article {
+		text-align: center;
+		max-width: 374px;
+		margin-left: 22px;
+		margin-right: 22px;
+		margin-top: 65px;
+	}
+
+	.title {
+		font-size: 1.5em;
+		font-weight: 700;
+		line-height: 1.5em;
+	}
+
+	.paragraph {
+        margin-top: 20px;
+	}
+
+	.button_white {
+        display: block;
+        align-items:center;
+        justify-content: space-around;
+        margin-top: 60px;
+	}
+
+	.reseaux_logo {
+		display: block;
+		margin: 127px 60px 80px 70px;
 		
 	}
 
